@@ -27,7 +27,7 @@ The following files were created during this project:
 * *building-permits.ipynb* - exploratory analysis based on cleaned data; 
   running this notebook produces *Building_Permits_20231024_cost.csv.zip* 
   which is used by the notebook presenting the results
-* *building-permits-dash.ipynb* - the presentation of the results
+* *building-permits-dash.ipynb* - the presentation of the results (Plotly Dash)
 
 ## Datasets
 
@@ -46,7 +46,9 @@ These are *.ipynb exported to HTML
 
 * *data-cleanup.html* - exported *data-cleanup.ipynb* 
 * *building-permits.html* - exported *building-permits.ipynb*
-* *building-permits-dash.html* - exported *building-permits-dash.ipynb*
+
+The final presentation is in building-permits-dash.ipynb (html requires
+running a server so it is the same as running the notebook)
 
 ```bash
 # to export to html without python code
